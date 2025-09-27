@@ -1,16 +1,10 @@
 .App {
   text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .App-link {
@@ -21,4 +15,8 @@ h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.App > div {
+  margin-bottom: 24px;
 }
