@@ -20,3 +20,16 @@ h1 {
 .App > div {
   margin-bottom: 24px;
 }
+
+[data-theme="dark"] {
+  background: #181a1b;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .App-link {
+  color: #90caf9;
+}
+
+[data-theme="dark"] h1 {
+  color: #ccc;
+}
