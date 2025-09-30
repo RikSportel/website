@@ -4,6 +4,7 @@ import Icons, { Icon } from './Icons';
 import githubLogo from './github-mark.svg';
 import githubLogoWhite from './github-mark-white.svg';
 import linkedinLogo from './LinkedIn_icon.svg';
+import mtgLogo from './mtg.png';
 import ThemeToggleButton from './ThemeToggleButton';
 
 const getSystemTheme = () => {
@@ -44,6 +45,11 @@ function App() {
           href="https://github.com/RikSportel"
           src={theme === 'dark' ? githubLogoWhite : githubLogo}
           alt="GitHub"
+        />
+        <Icon
+          href="https://mtg.rikspor.tel"
+          src={mtgLogo}
+          alt="MTG"
         />
       </Icons>
     </div>
